@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.navbar-logo{
+    font-family: Cookie, cursive;
+    font-size: 32px;
+}
+
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.App dark {
+  background-color: #fff;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.dark {
+  background-color: #333;
+  color: #e9e7e7;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  transition: background 0.2s linear;
+}
+.checkbox {
+  opacity: 0;
+  
+}
+
+.label {
+  width: 34px;
+  height: 18px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(16px);
+}
+
+.darkmode {
+  display: flex;
+}
+

@@ -1,0 +1,59 @@
+.dark {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.light {
+    background-color: #fff;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    transition: background 0.2s linear;
+  }
+  .checkbox {
+    opacity: 0;
+    
+  }
+  
+  .label {
+    width: 34px;
+    height: 18px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .label .ball{
+    transform: translateX(16px);
+  }
+
+
+  .img{
+    width: 75%;
+    margin: 15px;
+    background-size: cover;
+  }

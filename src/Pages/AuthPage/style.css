@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.instagram-font {
+    font-family: Cookie, cursive;
+}
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login__ordiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .login__dividor {
+    width: 120px;
+    height: 0px;
+    margin-top: 10px;
+    border:1px solid #DBDBDB;
+  }
+  .login__or {
+    margin: 0px 5px;
+    font-weight: bold;
+    color: #8E8E8E;
+  }
+
+  .login__fb {
+    color: #395185;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h6{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#imgf{
+    float: left;
+    outline: auto;
+}
+
+
+
+.p1{
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: darkgrey;
+    font-size: 13px;
+    text-align: center;
+}
+
+.reset_password{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  color: rgb(133, 149, 242);
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  margin-left: 20%;
+}
+
+
+.bun{
+    color: aliceblue;
+    border: none;
+    background-color: #007fd3;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 880px) {
+    .instagramlogo {
+      height: 0;
+      width: 0;
+    }
+}
